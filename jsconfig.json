@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "target": "es6",
+    "paths": {
+      "Components/*": ["Components/*"],
+      "I18n/*": ["I18n/*"],
+      "Images/*": ["Images/*"],
+      "Layout/*": ["Layout/*"],
+      "Pages/*": ["Pages/*"],
+      "Services/*": ["Services/*"],
+      "Redux/*": ["Redux/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", ".vscode"]
+}

@@ -1,0 +1,94 @@
+.products {
+  margin-bottom: 80px;
+}
+.products h2 {
+  margin-bottom: 46px;
+}
+.products .products-item {
+  padding: 0;
+  border-radius: 16px;
+}
+.products .products-item .card-custom,
+.products .products-item .card {
+  max-width: 275px;
+  width: 100%;
+  margin: 12px;
+  border-radius: 16px;
+  border: none;
+  overflow: hidden;
+}
+.products .products-item .card-custom:hover,
+.products .products-item .card:hover {
+  box-shadow: 0px 16px 16px 8px rgba(115, 141, 163, 0.1);
+}
+.products .products-item .card-custom .card-img,
+.products .products-item .card .card-img {
+  position: relative;
+  text-align: center;
+}
+.products .products-item .card-custom .card-img .main-img,
+.products .products-item .card .card-img .main-img {
+  margin-bottom: 16px;
+  width: 130px;
+  height: 130px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.products .products-item .card-custom .card-img .heart-icon,
+.products .products-item .card .card-img .heart-icon {
+  cursor: pointer;
+  box-shadow: 0px 16px 20px rgba(0, 0, 0, 0.06);
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  padding: 10px;
+}
+.products .products-item .card-custom .card-img .heart-icon svg,
+.products .products-item .card .card-img .heart-icon svg {
+  width: 100%;
+}
+.products .products-item .card-custom .card-body,
+.products .products-item .card .card-body {
+  padding: 16px;
+}
+.products .products-item .card-custom .card-body h6,
+.products .products-item .card .card-body h6 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  color: #6f818f;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.products .products-item .card-custom .card-body h4,
+.products .products-item .card .card-body h4 {
+  height: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  display: -webkit-box;
+  color: #23272b;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.products .products-item .card-custom .card-body .btn,
+.products .products-item .card .card-body .btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e93235;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 12px 0;
+}
+.products .products-item .card-custom .card-body .btn img,
+.products .products-item .card .card-body .btn img {
+  margin-right: 10px;
+}/*# sourceMappingURL=products.css.map */
